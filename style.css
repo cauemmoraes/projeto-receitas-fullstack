@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     font-family: "Alice", serif;
     line-height: 150%;
@@ -24,9 +29,22 @@ img {
     border-radius: 16px;
 }
 
+main {
+    padding: 24px;
+}
+
+section + section {
+    margin-top: 24px;
+}
+
+#about p + p {
+    margin: 12px;
+}
+
 h1 {
     font-size: 40px;
     line-height: 140%;
+    margin-bottom: 4px;
 }
 
 h2 {
@@ -35,4 +53,10 @@ h2 {
 
 h1, h2 {
     color: #291B1A;
+    margin-bottom: 4px;
+    line-height: 150%;
+}
+
+ul {
+    padding-left: 26px;
 }
